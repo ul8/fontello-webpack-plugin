@@ -1,3 +1,10 @@
+# Fixed fork (not maintained)
+
+Works with 
+- Webpack 3.x
+- https fontello API (https://github.com/fontello/fontello/issues/716)
+- unzip replaced with unzipper (fixes zip error on fontello build)
+
 # Fontello Webpack Plugin
 
 Download icon fonts to webpack build folder using [Fontello](http://fontello.com).
@@ -7,7 +14,7 @@ Download icon fonts to webpack build folder using [Fontello](http://fontello.com
 ## Install
 
 ```bash
-npm install fontello-webpack-plugin
+yarn add https://github.com/ul8/fontello-webpack-plugin
 ```
 
 ## Usage
